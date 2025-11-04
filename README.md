@@ -18,7 +18,6 @@ Aplicación de consola desarrollada en C para la gestión de inventarios. Permit
 ## Estructura del proyecto
 ```
 / sistema-inventario
-│
 ├── sistema_inventario.c     # Código fuente principal.
 ├── README.md                # Documentación del proyecto.
 ```
