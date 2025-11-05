@@ -10,7 +10,7 @@ Aplicación de consola desarrollada en C para la gestión de inventarios. Permit
 - Persistencia automática de datos en archivo CSV.
 - Validación de entradas del usuario.
 - Funciones modulares para cada operación: Agregar, listar, buscar, modificar y eliminar productos.
-- Compatible con Windows, Linux y macOS.
+- Compatible con Linux, macO y Windows.
 - Configuración mediante macros (`MAX_PRODUCTOS`, `MAX_NOMBRE`).
 
 ---
@@ -27,7 +27,7 @@ Aplicación de consola desarrollada en C para la gestión de inventarios. Permit
 ## Requisitos
 - Compilador C (GCC o Clang).
 - Sistema operativo compatible con consola (Linux, macOS o Windows).
-- Permisos de lectura/escritura en el directorio actual (para generar `inventario.csv`).
+- Permisos de lectura y escritura en el directorio actual (para generar `inventario.csv`).
 
 ---
 
