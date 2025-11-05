@@ -18,15 +18,15 @@ Aplicación de consola desarrollada en C para la gestión de inventarios. Permit
 ## Estructura del proyecto
 ```
 / sistema-inventario
-├── sistema_inventario.c     # Código fuente principal.
-├── README.md                # Documentación del proyecto.
+├─ sistema_inventario.c     # Código fuente principal.
+└─ README.md                # Documentación del proyecto.
 ```
 
 ---
 
 ## Requisitos
-- Compilador C (por ejemplo, GCC o Clang).
-- Sistema operativo compatible con consola (Windows, Linux o macOS).
+- Compilador C (GCC o Clang).
+- Sistema operativo compatible con consola (Linux, macOS o Windows).
 - Permisos de lectura/escritura en el directorio actual (para generar `inventario.csv`).
 
 ---
@@ -41,7 +41,7 @@ Aplicación de consola desarrollada en C para la gestión de inventarios. Permit
    gcc -o sistema_inventario sistema_inventario.c
    ```
 
-#### En Windows (usando MinGW o similar):
+#### En Windows:
 
    ```bash
    gcc -o sistema_inventario.exe sistema_inventario.c
@@ -57,10 +57,10 @@ Aplicación de consola desarrollada en C para la gestión de inventarios. Permit
    ./sistema_inventario
    ```
 
-#### En Windows (PowerShell o CMD):
+#### En Windows:
 
-   ```powershell
-   .\sistema_inventario.exe
+   ```bash
+   sistema_inventario.exe
    ```
 
 ---
